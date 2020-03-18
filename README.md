@@ -1,2 +1,5 @@
-# covid-19
-Türkiye'deki COVID-19 vakalarına dair verilerin görselleştirilmesi
+# COVID-19 Vaka Karşılaştırmaları
+
+## Veri kaynağı
+
+## Uyarılar
