@@ -1,7 +1,6 @@
 library(tidyverse)
 library(gridExtra)
 
-Sys.setlocale("LC_TIME", "Turkish")
 Sys.setlocale(category = "LC_ALL", locale = "Turkish")
 
 ## Reading in the Data
@@ -73,12 +72,15 @@ cases <- long_data  %>%
   geom_line() +
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
        caption = "Eğitim amaçlıdır. @MineDogucu",
-       y = 'Vaka sayısı',
-       title = "Karşılaştırmalı")
+       y = 'Vaka sayısı') +
+  theme(
+    plot.caption = element_text(size = 8),
+    legend.text = element_text(size = 8))
+
 
 cases
 
-ggsave("figs/cases.png")
+ggsave("figs/cases.png", width = 8, height = 6)
 
 cases_tr <- long_data  %>%
   filter(`Country/Region` == 'Türkiye') %>% 
@@ -87,10 +89,12 @@ cases_tr <- long_data  %>%
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
        caption = "Eğitim amaçlıdır. @MineDogucu",
        y = 'Vaka sayısı',
-       title = "Türkiye")
+       title = "Türkiye") +
+  theme(
+    plot.caption = element_text(size = 8))
 cases_tr
 
-ggsave("figs/cases_tr.png")
+ggsave("figs/cases_tr.png", width = 8, height = 6)
 
 
 ## Visualizing Number of Deaths
@@ -102,12 +106,14 @@ deaths <- long_data  %>%
   geom_line() +
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
        caption = "Eğitim amaçlıdır. @MineDogucu",
-       y = 'Ölüm sayısı',
-       title = "Karşılaştırmalı")
+       y = 'Ölüm sayısı') +
+  theme(
+    plot.caption = element_text(size = 8),
+    legend.text = element_text(size = 8))
 
 deaths
 
-ggsave("figs/deaths.png")
+ggsave("figs/deaths.png" , width = 8, height = 6)
 
 deaths_tr <- long_data  %>%
   filter(`Country/Region` == 'Türkiye') %>% 
@@ -116,10 +122,12 @@ deaths_tr <- long_data  %>%
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
        caption = "Eğitim amaçlıdır. @MineDogucu",
        y = 'Ölüm sayısı',
-       title = "Türkiye")
+       title = "Türkiye") +
+  theme(
+    plot.caption = element_text(size = 8))
 deaths_tr
 
-ggsave("figs/deaths_tr.png")
+ggsave("figs/deaths_tr.png" , width = 8, height = 6)
 
 
 ## Visualizing Number of Recoverıes
@@ -131,12 +139,14 @@ recovery <- long_data  %>%
   geom_line() +
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
        caption = "Eğitim amaçlıdır. @MineDogucu",
-       y = 'İyileşen sayısı',
-       title = "Karşılaştırmalı")
+       y = 'İyileşen sayısı') +
+  theme(
+    plot.caption = element_text(size = 8),
+    legend.text = element_text(size = 8))
 
 recovery
 
-ggsave("figs/recovery.png")
+ggsave("figs/recovery.png", width = 8, height = 6)
 
 recovery_tr <- long_data  %>%
   filter(`Country/Region` == 'Türkiye') %>% 
@@ -145,10 +155,12 @@ recovery_tr <- long_data  %>%
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
        caption = "Eğitim amaçlıdır. @MineDogucu",
        y = 'İyileşen sayısı',
-       title = "Türkiye")
+       title = "Türkiye") +
+  theme(
+    plot.caption = element_text(size = 8))
 recovery_tr
 
-ggsave("figs/recovery_tr.png")
+ggsave("figs/recovery_tr.png", width = 8, height = 6)
 
 
 
