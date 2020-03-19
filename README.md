@@ -12,7 +12,7 @@ Bu kaynak tamamen eğitim amaçlıdır. Öğrencilere istatistiğin, matematiği
 
 - İstatik derslerinde açık kaynaktaki R kodu örnek olarak kullanılabilinir.
 - Veri bilim derslerinde görseller eleştirebilinir.
-- Calculus dersinde fonksiyonların artış hızları karşılaştırabilinir.
+- Kalkülüs dersinde fonksiyonların artış hızları karşılaştırabilinir.
 
 Kısacası amaç, öğrencilerin bunu öğrenmek ne işime yarayacak ki söylemlerini azaltmak. Matematiği ve istatistiği gündelik hayattan örnekler vererek öğretmek.
 
