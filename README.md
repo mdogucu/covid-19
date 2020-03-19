@@ -1,5 +1,7 @@
 # COVID-19 Verileri
 
+Aktivite Yazarı: Mine Doğucu ([@MineDogucu](https://twitter.com/MineDogucu))
+
 En son elde edilen veri tarihi: 18 Mart 2020
 
 Lütfen bu formun __tamamını__ okuyun, sadece figürlere bakmayın. 
