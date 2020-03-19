@@ -8,7 +8,7 @@ Lütfen bu formun __tamamını__ okuyun, sadece figürlere bakmayın.
 
 ## Bu kaynağın amacı
 
-Bu kaynak tamamen eğitim amaçlıdır. Öğrencilere istatistiğin, matematiğin, veri biliminin önemini güncel konu ile anlatmak isteyen eğitimciler kullanabilirler. Herhangi spesifik bir dersi amaçlamamak ile birlikte, birkaç derste kullanılabilir. Örneğin:
+Bu kaynak tamamen eğitim amaçlıdır. Öğrencilere istatistiğin, matematiğin, ve veri biliminin önemini güncel bir konu ile anlatmak isteyen eğitimciler kullanabilirler. Herhangi spesifik bir dersi amaçlamamak ile birlikte, birkaç derste kullanılabilir. Örneğin:
 
 - İstatik derslerinde açık kaynaktaki R kodu örnek olarak kullanılabilinir.
 - Veri bilim derslerinde görseller eleştirebilinir.
@@ -21,7 +21,6 @@ Kısacası amaç, öğrencilerin bunu öğrenmek ne işime yarayacak ki söyleml
 Veriler John Hopkins Üniversitesi, Whiting Mühendislik Fakültesi, Sistemler Bilimi ve Mühendisliği Merkezi'nin sunduğu COVID-19 [GitHub reposundan](https://github.com/CSSEGISandData/COVID-19) alınmıştır.
 
 Bu kaynakta belirtildiği üzere, veriler Dünya Sağlık Örgütü ve birçok devlet sağlık kurumlarından elde edilmiş. Bu verilerin hakkı John Hopkins Üniversitesine aittir ve sadece eğitim ve akademik araştırma amaçlı kullanıma açıktır. Verilerin farklı kaynaklardan gelmesinden dolayı verilerin doğruluğuna dair garanti vermemektedirler. Medikal yönlendirme veya ticaret amacı ile kullanılması kesinlikle yanlıştır. Verileri kullanmak isterseniz direk ana kaynaktan faydalanın.
-
 
 ## Uyarılar
 
