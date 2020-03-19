@@ -26,7 +26,7 @@ Kaynağı kullanırken dikkat edilmesi gerekilenler:
 
 - Elimden geldiğince figürleri güncelleyeceğim. Bu linki kaydedin ve en güncel halini kullanın.
 - Figürleri herhangi biri ile paylaşırsanız, mutlaka ama mutlaka, bu linki de paylaşın. Böylelikle kaynağın yanlış kullanılmasının önüne geçmiş oluruz.
-- Eğitim ortamında oran konusunun tartışmasına yol açması için sayılar nüfusa oranlanmadan verilmiştir. - Bu konuyu ele almak hem öğrenende hem de eğitimcide strese neden olabilir.   
+- Eğitim ortamında oran konusunun tartışmasına yol açması için sayılar nüfusa oranlanmadan verilmiştir. - Bu konuyu ele almak hem öğrenende hem de eğitimcide strese neden olabilir. 
 - Bir eğitimci olarak şahsi fikrim: bu konu ele alınırken hem bilimin hem de toplu eylemin önemi vurgulanmalıdır.
 - Bu kaynak hata içerebilir. Eğer hata görüyorsanız GitHub'da issue açabilirsiniz veya bana email üzerinden ulaşabilirsiniz.
 

@@ -80,7 +80,7 @@ cases <- long_data  %>%
 
 cases
 
-ggsave("figs/cases.png", width = 8, height = 6)
+ggsave("figs/cases.png", width = 5, height = 3)
 
 cases_tr <- long_data  %>%
   filter(`Country/Region` == 'Türkiye') %>% 
@@ -94,7 +94,7 @@ cases_tr <- long_data  %>%
     plot.caption = element_text(size = 8))
 cases_tr
 
-ggsave("figs/cases_tr.png", width = 8, height = 6)
+ggsave("figs/cases_tr.png", width = 5, height = 3)
 
 
 ## Visualizing Number of Deaths
@@ -113,7 +113,7 @@ deaths <- long_data  %>%
 
 deaths
 
-ggsave("figs/deaths.png" , width = 8, height = 6)
+ggsave("figs/deaths.png" , width = 5, height = 3)
 
 deaths_tr <- long_data  %>%
   filter(`Country/Region` == 'Türkiye') %>% 
@@ -127,7 +127,7 @@ deaths_tr <- long_data  %>%
     plot.caption = element_text(size = 8))
 deaths_tr
 
-ggsave("figs/deaths_tr.png" , width = 8, height = 6)
+ggsave("figs/deaths_tr.png" , width = 5, height = 3)
 
 
 ## Visualizing Number of Recoverıes
@@ -146,7 +146,7 @@ recovery <- long_data  %>%
 
 recovery
 
-ggsave("figs/recovery.png", width = 8, height = 6)
+ggsave("figs/recovery.png", width = 5, height = 3)
 
 recovery_tr <- long_data  %>%
   filter(`Country/Region` == 'Türkiye') %>% 
@@ -160,7 +160,7 @@ recovery_tr <- long_data  %>%
     plot.caption = element_text(size = 8))
 recovery_tr
 
-ggsave("figs/recovery_tr.png", width = 8, height = 6)
+ggsave("figs/recovery_tr.png", width = 5, height = 3)
 
 
 
