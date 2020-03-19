@@ -39,6 +39,10 @@ Kaynağı kullanırken dikkat edilmesi gerekenler:
 
 Öğrencilerin en merak edeceği noktalardan biri neden Çin'in verilerinin olmadığı olacaktır. Aslında veri kaynağında Çin verileri mevcut fakat ben bilinçli olarak kullanmadım. Bunun iki sebebi var. Birincisi sayıların nüfustan dolayı yüksek olduğundan, oran kullanmadan diğer ülkeler ile karşılaştırılması zor. İkincisi ise son zamanlarda Çinlilere karşı artan ırkçı söylemlerin eğitim ortamından uzaklaştırılmaya çalışmam.
 
+## Teşekkürler
+
+Mine Çetinkaya-Rundel ve Hazel Kavili'ye geri bildirimleri için teşekkür ederim.
+
 ## Karşılaştırmalı Figürler
 
 
