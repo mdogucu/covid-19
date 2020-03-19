@@ -32,7 +32,7 @@ Kaynağı kullanırken dikkat edilmesi gerekilenler:
 - Bu konuyu ele almak hem öğrenende hem de eğitimcide strese neden olabilir. 
 - Bir eğitimci olarak şahsi fikrim: bu konu ele alınırken hem bilimin hem de toplu eylemin önemi vurgulanmalıdır.
 - Bu kaynak hata içerebilir. Eğer hata görüyorsanız GitHub'da issue açabilirsiniz veya bana email üzerinden ulaşabilirsiniz.
-- ÇOK ÖNEMLİ: BU AKTİVİTE SADECE EĞİTİM AMAÇLIDIR. SAĞLIK İLE İLGİLİ SONUÇLARIN ÇIKARILMASI DOĞRU DEĞİLDİR. HASTALIKLARIN YAYILMA HIZI, ŞEKLİ, POLİTİKALARIN ETKİLERİ DAHA KOMPLEKS MODELLEMELER İÇERMEKTEDİR.
+- BU AKTİVİTE SADECE EĞİTİM AMAÇLIDIR. SAĞLIK İLE İLGİLİ SONUÇLARIN ÇIKARILMASI DOĞRU DEĞİLDİR. HASTALIKLARIN YAYILMA HIZI, ŞEKLİ, SAĞLIK POLİTİKALARININ ETKİLERİ DAHA KOMPLEKS MODELLEMELER İÇERMEKTEDİR.
 
 Öğrencilerin en merak edeceği noktalardan biri neden Çin'in verilerinin olmadığı. Aslında veri kaynağında Çin verileri mevcut fakat ben bilinçli olarak kullanmadım. Bunun iki sebebi var. Birincisi sayıların nüfustan dolayı yüksek olduğundan, oran kullanmadan diğer ülkeler ile karşılaştırılması zor. İkincisi ise son zamanlarda Çinlilere karşı artan ırkçı söylemlerin eğitim ortamından uzaklaştırılmaya çalışmam.
 
