@@ -47,7 +47,8 @@ long_data <- left_join(confirmed_long, death_long) %>%
                       `Country/Region` == "Italy" |
                       `Country/Region` == "Iran"  |
                       `Country/Region` == "Korea, South" |
-                      `Country/Region` == "United Kingdom")
+                      `Country/Region` == "United Kingdom" |
+                      `Country/Region` == "US")
 
 
 
@@ -60,7 +61,8 @@ long_data$`Country/Region` <-
          'Germany' = 'Almanya',
          'Italy' = 'İtalya',
          'Korea, South' = 'Güney Kore',
-         'United Kingdom' = 'Birleşik Krallık')
+         'United Kingdom' = 'Birleşik Krallık',
+         'US' = 'ABD')
 
 
 ## Visualizing Number of Cases
@@ -71,11 +73,13 @@ cases <- long_data  %>%
              color = Ülke)) +
   geom_line() +
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
-       caption = "Eğitim amaçlıdır. @MineDogucu",
-       y = 'Vaka sayısı') +
+       caption = paste("Eğitim amaçlıdır. Güncelleme tarihi:",
+                       Sys.Date()),
+       y = 'Vaka sayısı',
+       subtitle = "https://bit.ly/covid19aktivite") +
   theme(
-    plot.caption = element_text(size = 8),
-    legend.text = element_text(size = 8))
+    plot.caption = element_text(size = 7),
+    legend.text = element_text(size = 8)) 
 
 
 cases
@@ -87,11 +91,13 @@ cases_tr <- long_data  %>%
   ggplot(aes(x = n_day, y = n_cases)) +
   geom_line() +
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
-       caption = "Eğitim amaçlıdır. @MineDogucu",
+       caption = paste("Eğitim amaçlıdır. Güncelleme tarihi:",
+                       Sys.Date()),
        y = 'Vaka sayısı',
-       title = "Türkiye") +
+       title = "Türkiye",
+       subtitle = "https://bit.ly/covid19aktivite") +
   theme(
-    plot.caption = element_text(size = 8))
+    plot.caption = element_text(size = 7))
 cases_tr
 
 ggsave("figs/cases_tr.png", width = 5, height = 3)
@@ -105,10 +111,12 @@ deaths <- long_data  %>%
              color = Ülke)) +
   geom_line() +
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
-       caption = "Eğitim amaçlıdır. @MineDogucu",
-       y = 'Ölüm sayısı') +
+       caption = paste("Eğitim amaçlıdır. Güncelleme tarihi:",
+                       Sys.Date()),
+       y = 'Ölüm sayısı',
+       subtitle = "https://bit.ly/covid19aktivite") +
   theme(
-    plot.caption = element_text(size = 8),
+    plot.caption = element_text(size = 7),
     legend.text = element_text(size = 8))
 
 deaths
@@ -120,11 +128,13 @@ deaths_tr <- long_data  %>%
   ggplot(aes(x = n_day, y = n_death)) +
   geom_line() +
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
-       caption = "Eğitim amaçlıdır. @MineDogucu",
+       caption = paste("Eğitim amaçlıdır. Güncelleme tarihi:",
+                       Sys.Date()),
        y = 'Ölüm sayısı',
-       title = "Türkiye") +
+       title = "Türkiye",
+       subtitle = "https://bit.ly/covid19aktivite") +
   theme(
-    plot.caption = element_text(size = 8))
+    plot.caption = element_text(size = 7))
 deaths_tr
 
 ggsave("figs/deaths_tr.png" , width = 5, height = 3)
@@ -138,10 +148,12 @@ recovery <- long_data  %>%
              color = Ülke)) +
   geom_line() +
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
-       caption = "Eğitim amaçlıdır. @MineDogucu",
-       y = 'İyileşen sayısı') +
+       caption = paste("Eğitim amaçlıdır. Güncelleme tarihi:",
+                       Sys.Date()),
+       y = 'İyileşen sayısı',
+       subtitle = "https://bit.ly/covid19aktivite") +
   theme(
-    plot.caption = element_text(size = 8),
+    plot.caption = element_text(size = 7),
     legend.text = element_text(size = 8))
 
 recovery
@@ -153,11 +165,14 @@ recovery_tr <- long_data  %>%
   ggplot(aes(x = n_day, y = n_recovered)) +
   geom_line() +
   labs(x = "İlk vakadan itibaren geçen gün sayısı",
-       caption = "Eğitim amaçlıdır. @MineDogucu",
+       caption = paste("Eğitim amaçlıdır. Güncelleme tarihi:",
+                       Sys.Date()),
        y = 'İyileşen sayısı',
-       title = "Türkiye") +
+       title = "Türkiye",
+       subtitle = "https://bit.ly/covid19aktivite") +
   theme(
-    plot.caption = element_text(size = 8))
+    plot.caption = element_text(size = 7)) 
+
 recovery_tr
 
 ggsave("figs/recovery_tr.png", width = 5, height = 3)
