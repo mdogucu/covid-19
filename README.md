@@ -2,7 +2,7 @@
 
 Aktivite Yazarı: Mine Doğucu ([@MineDogucu](https://twitter.com/MineDogucu))
 
-En son elde edilen veri tarihi: 18 Mart 2020
+Bu aktivite veri farkları sebebiyle artık güncellenmemektedir.
 
 Lütfen bu formun __tamamını__ okuyun, sadece figürlere bakmayın. 
 
